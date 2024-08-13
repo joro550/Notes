@@ -1,5 +1,3 @@
-
-
 We have a bunch of ats systems that we want to import into snowflake.
 
 multi tenant database

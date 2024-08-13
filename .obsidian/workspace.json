@@ -1,14 +1,26 @@
 {
   "main": {
-    "id": "23edf469b73d1066",
+    "id": "b171d7e51a5a1494",
     "type": "split",
     "children": [
       {
-        "id": "b43ce756b3474947",
+        "id": "df6cb9a3b1c127a3",
         "type": "tabs",
         "children": [
           {
-            "id": "aa23bc89a11df98b",
+            "id": "02fffa94eb105ba9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "ATS import.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "34486e13e3c99ba6",
             "type": "leaf",
             "state": {
               "type": "graph",
@@ -16,21 +28,21 @@
             }
           }
         ],
-        "stacked": true
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "12e7a68800249763",
+    "id": "cebf22de25a64be7",
     "type": "split",
     "children": [
       {
-        "id": "363a395a62be682f",
+        "id": "cc668088ee8d0317",
         "type": "tabs",
         "children": [
           {
-            "id": "f31f2039bf76704d",
+            "id": "4cf9f50a604dc7ce",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -40,7 +52,7 @@
             }
           },
           {
-            "id": "a92fb4d5c88cf270",
+            "id": "8433b592f1b89593",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -55,7 +67,7 @@
             }
           },
           {
-            "id": "d3384086cad29553",
+            "id": "0f58cfc09bba02d4",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -66,18 +78,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
-    "id": "810d7618a3fcee4c",
+    "id": "6dbab24084809c54",
     "type": "split",
     "children": [
       {
-        "id": "e5e7f530977a8a29",
+        "id": "3aa3228d9ae0b025",
         "type": "tabs",
         "children": [
           {
-            "id": "cad696e7ef70f0ec",
+            "id": "6d06b656a5df1ccf",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -93,7 +106,7 @@
             }
           },
           {
-            "id": "7cc247d6ce67de6a",
+            "id": "05d080eae1ec864f",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -104,7 +117,7 @@
             }
           },
           {
-            "id": "380bbfe752b77e00",
+            "id": "5eb3702c609c1b92",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -115,7 +128,7 @@
             }
           },
           {
-            "id": "d3e0fb5ffd55ddfd",
+            "id": "c256b2a826c72da8",
             "type": "leaf",
             "state": {
               "type": "outline",
@@ -139,14 +152,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "aa23bc89a11df98b",
+  "active": "34486e13e3c99ba6",
   "lastOpenFiles": [
-    "LICENSE",
-    "Notes/LICENSE",
-    "Notes",
-    "Untitled 1.md",
-    "Untitled",
+    "Inbox/Data extract.md",
+    "ATS import.md",
+    "Untitled.md",
+    "Untitled 2.md",
     "Inbox",
-    "Untitled.md"
+    "Notes",
+    "LICENSE",
+    "Notes/Untitled.md",
+    "Notes/Untitled 1.md",
+    "Notes/LICENSE",
+    "Untitled 1.md",
+    "Untitled.canvas",
+    "2024-05-13.md",
+    "DBT MoC.md",
+    "2024-04-30.md",
+    "Hello world.md"
   ]
 }
