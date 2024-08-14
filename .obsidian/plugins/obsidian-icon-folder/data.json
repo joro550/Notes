@@ -7,7 +7,14 @@
     "iconColor": null,
     "recentlyUsedIcons": [],
     "recentlyUsedIconsSize": 5,
-    "rules": [],
+    "rules": [
+      {
+        "rule": "Inbox",
+        "icon": "LiInbox",
+        "for": "everything",
+        "order": 0
+      }
+    ],
     "extraMargin": {
       "top": 0,
       "right": 4,
