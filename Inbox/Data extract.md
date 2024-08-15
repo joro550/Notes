@@ -2,7 +2,6 @@ We have potentially multiple things going on in on excel file
 
 Andy mentioned that we have pipelines that look like the first couple of columns but then it goes into demographics which potentially is linked via the user id in the excel document
 
-
 G Row - AtsApplicationflowsteps
 
 
