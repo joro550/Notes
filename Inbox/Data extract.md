@@ -4,7 +4,6 @@ Andy mentioned that we have pipelines that look like the first couple of columns
 
 G Row - AtsApplicationflowsteps
 
-
 ```sql
 select top 100 * from atsApplications where id = 185153
 
