@@ -23,3 +23,17 @@ stream lit - some sort of library
 
 What do we do to generate this data?
 How do we solve each of the issues
+
+
+-----
+
+for each steps would we want to pivot? 
+- for each step pass/fail
+
+
+----
+
+3 years of data
+
+
+
