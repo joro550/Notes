@@ -13,26 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Data extract.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "042b131e8d59af6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "Inbox/Project N.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -159,15 +147,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "042b131e8d59af6d",
+  "active": "20ad7fd28e880887",
   "lastOpenFiles": [
-    "Inbox/Data extract.md",
-    "Inbox/Smatch.md",
-    "Inbox/Project N.md",
-    "Inbox/Visualize cookies.md",
-    "Inbox/Hello.md",
     "Inbox/Untitled 1.md",
+    "Inbox/Smatch.md",
     "Inbox/Untitled.md",
+    "Inbox/Data extract.md",
+    "Inbox/Visualize cookies.md",
+    "Inbox/Project N.md",
+    "Inbox/Hello.md",
     "ATS import.md",
     "Untitled.md",
     "Untitled 2.md",
