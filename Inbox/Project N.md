@@ -79,3 +79,15 @@ signing off in a second, give me a shout tomorrow if you need
 
 when do we write an offer status into the ats 
 what makes a questionnaire an application form is it literally just a group name or can we make other assumptions about the group name
+
+- candidate 
+	- status 
+	- scores <-
+	- right to work <-
+	- education <-
+- job offer status
+	- demographics
+		- sexual orientation
+		- ethnicity
+
+offer status for each record not a thing
