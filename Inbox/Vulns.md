@@ -10,3 +10,15 @@ package : setuptools
 
 >Python Packaging Authority (PyPA)'s setuptools is a library designed to facilitate packaging Python projects. Setuptools version 65.5.0 and earlier could allow remote attackers to cause a denial of service by fetching malicious HTML from a PyPI package or custom PackageIndex page due to a vulnerable Regular Expression in `package_index`. This has been patched in version 65.5.1.
 
+package: werkzeug
+[CVE-2024-34069](https://scout.docker.com/vulnerabilities/id/CVE-2024-34069?s=github&n=werkzeug&t=pypi&vr=%3C3.0.3)
+
+>The debugger in affected versions of Werkzeug can allow an attacker to execute code on a developer's machine under some circumstances. This requires the attacker to get the developer to interact with a domain and subdomain they control, and enter the debugger PIN, but if they are successful it allows access to the debugger even if it is only running on localhost. This also requires the attacker to guess a URL in the developer's application that will trigger the debugger.
+
+package: werkzeug
+[CVE-2024-49767](https://scout.docker.com/vulnerabilities/id/CVE-2024-49767?s=github&n=werkzeug&t=pypi&vr=%3C%3D3.0.5)
+
+> Applications using Werkzeug to parse `multipart/form-data` requests are vulnerable to resource exhaustion. A specially crafted form body can bypass the `Request.max_form_memory_size` setting.
+> 
+>The `Request.max_content_length` setting, as well as resource limits provided by deployment software and platforms, are also available to limit the resources used during a request. This vulnerability does not affect those settings. All three types of limits should be considered and set appropriately when deploying an application.
+
