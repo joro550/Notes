@@ -34,3 +34,5 @@ package: werkzeug
 > On Python < 3.11 on Windows, `os.path.isabs()` does not catch UNC paths like `//server/share`. Werkzeug's `safe_join()` relies on this check, and so can produce a path that is not safe, potentially allowing unintended access to data. Applications using Python >= 3.11, or not using Windows, are not vulnerable.
 
 
+package: python-jose
+[CVE-2024-33663](https://scout.docker.com/vulnerabilities/id/CVE-2024-33663?s=github&n=python-jose&t=pypi&vr=%3C%3D3.3.0)
