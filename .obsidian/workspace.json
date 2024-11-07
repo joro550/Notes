@@ -20,21 +20,8 @@
               "icon": "lucide-file",
               "title": "Vulns"
             }
-          },
-          {
-            "id": "0dd8e047d436073d",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.5"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.5"
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -176,7 +163,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0dd8e047d436073d",
+  "active": "0bc4118add8e902f",
   "lastOpenFiles": [
     "Inbox/Ideas.md",
     "Inbox/Vulns.md",
