@@ -4,39 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "df6cb9a3b1c127a3",
+        "id": "b5bf76ccc9617070",
         "type": "tabs",
         "children": [
           {
-            "id": "20ad7fd28e880887",
+            "id": "0bc4118add8e902f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Inbox/Data extract.md",
+                "file": "Inbox/Vulns.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Data extract"
-            }
-          },
-          {
-            "id": "028afce3cf526ebf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Inbox/Ideas.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Ideas"
+              "title": "Vulns"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -178,10 +163,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "028afce3cf526ebf",
+  "active": "0bc4118add8e902f",
   "lastOpenFiles": [
-    "Inbox/Data extract.md",
     "Inbox/Ideas.md",
+    "Inbox/Vulns.md",
+    "Inbox/Data extract.md",
     "Inbox/Dotnet Aspire.md",
     "Inbox/Hello.md",
     "ATS import.md",
