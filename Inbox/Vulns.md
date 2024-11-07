@@ -36,3 +36,23 @@ package: werkzeug
 
 package: python-jose
 [CVE-2024-33663](https://scout.docker.com/vulnerabilities/id/CVE-2024-33663?s=github&n=python-jose&t=pypi&vr=%3C%3D3.3.0)
+
+> python-jose through 3.3.0 has algorithm confusion with OpenSSH ECDSA keys and other key formats. This is similar to CVE-2022-29217.
+
+package: python-jose 
+[CVE-2024-33664](https://scout.docker.com/vulnerabilities/id/CVE-2024-33664?s=github&n=python-jose&t=pypi&vr=%3C%3D3.3.0)
+
+> python-jose through 3.3.0 allows attackers to cause a denial of service (resource consumption) during a decode via a crafted JSON Web Encryption (JWE) token with a high compression ratio, aka a "JWT bomb." This is similar to CVE-2024-21319.
+
+package: gunicorn 
+[CVE-2024-1135](https://scout.docker.com/vulnerabilities/id/CVE-2024-1135?s=github&n=gunicorn&t=pypi&vr=%3C22.0.0)
+
+> Gunicorn fails to properly validate Transfer-Encoding headers, leading to HTTP Request Smuggling (HRS) vulnerabilities. By crafting requests with conflicting Transfer-Encoding headers, attackers can bypass security restrictions and access restricted endpoints. This issue is due to Gunicorn's handling of Transfer-Encoding headers, where it incorrectly processes requests with multiple, conflicting Transfer-Encoding headers, treating them as chunked regardless of the final encoding specified. This vulnerability has been shown to allow access to endpoints restricted by gunicorn. This issue has been addressed in version 22.0.0.
+> 
+> To be affected users must have a network path which does not filter out invalid requests. These users are advised to block access to restricted endpoints via a firewall or other mechanism if they are unable to update.
+
+package: ecdsa
+[CVE-2024-23342](https://scout.docker.com/vulnerabilities/id/CVE-2024-23342?s=github&n=ecdsa&t=pypi&vr=%3C%3D0.18.0)
+
+>python-ecdsa has been found to be subject to a Minerva timing attack on the P-256 curve. Using the `ecdsa.SigningKey.sign_digest()` API function and timing signatures an attacker can leak the internal nonce which may allow for private key discovery. Both ECDSA signatures, key generation, and ECDH operations are affected. ECDSA signature verification is unaffected. The python-ecdsa project considers side channel attacks out of scope for the project and there is no planned fix.
+
