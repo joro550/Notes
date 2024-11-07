@@ -72,3 +72,11 @@ package: zip
 
 > A Denial of Service (DoS) vulnerability exists in the jaraco/zipp library, affecting all versions prior to 3.19.1. The vulnerability is triggered when processing a specially crafted zip file that leads to an infinite loop. This issue also impacts the zipfile module of CPython, as features from the third-party zipp library are later merged into CPython, and the affected code is identical in both projects. The infinite loop can be initiated through the use of functions affecting the `Path` module in both zipp and zipfile, such as `joinpath`, the overloaded division operator, and `iterdir`. Although the infinite loop is not resource exhaustive, it prevents the application from responding. The vulnerability was addressed in version 3.19.1 of jaraco/zipp.
 
+package: pip
+[CVE-2023-5752](https://scout.docker.com/vulnerabilities/id/CVE-2023-5752?s=github&n=pip&t=pypi&vr=%3C23.3)
+
+> When installing a package from a Mercurial VCS URL, e.g. `pip install hg+...`, with pip prior to v23.3, the specified Mercurial revision could be used to inject arbitrary configuration options to the `hg clone` call (e.g. `--config`). Controlling the Mercurial configuration can modify how and which repository is installed. This vulnerability does not affect users who aren't installing from Mercurial.
+
+package: debian/bintools 
+
+[CVE-2021-3487](https://scout.docker.com/vulnerabilities/id/CVE-2021-3487?s=debian&n=binutils&ns=debian&t=deb&osn=debian&osv=10&vr=%3E%3D2.31.1-16)
