@@ -22,3 +22,15 @@ package: werkzeug
 > 
 >The `Request.max_content_length` setting, as well as resource limits provided by deployment software and platforms, are also available to limit the resources used during a request. This vulnerability does not affect those settings. All three types of limits should be considered and set appropriately when deploying an application.
 
+package: werkzeug 
+[CVE-2023-46136](https://scout.docker.com/vulnerabilities/id/CVE-2023-46136?s=github&n=werkzeug&t=pypi&vr=%3C2.3.8)
+
+> Werkzeug multipart data parser needs to find a boundary that may be between consecutive chunks. That's why parsing is based on looking for newline characters. Unfortunately, code looking for partial boundary in the buffer is written inefficiently, so if we upload a file that starts with CR or LF and then is followed by megabytes of data without these characters: all of these bytes are appended chunk by chunk into internal bytearray and lookup for boundary is performed on growing buffer.
+> 
+> This allows an attacker to cause a denial of service by sending crafted multipart data to an endpoint that will parse it. The amount of CPU time required can block worker processes from handling legitimate requests. The amount of RAM required can trigger an out of memory kill of the process. If many concurrent requests are sent continuously, this can exhaust or kill all available workers
+
+package: werkzeug
+[CVE-2024-49766](https://scout.docker.com/vulnerabilities/id/CVE-2024-49766?s=github&n=werkzeug&t=pypi&vr=%3C%3D3.0.5)
+> On Python < 3.11 on Windows, `os.path.isabs()` does not catch UNC paths like `//server/share`. Werkzeug's `safe_join()` relies on this check, and so can produce a path that is not safe, potentially allowing unintended access to data. Applications using Python >= 3.11, or not using Windows, are not vulnerable.
+
+
