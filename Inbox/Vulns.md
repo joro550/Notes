@@ -1,5 +1,3 @@
-
-
 package: setuptools
 [CVE-2024-6345](https://scout.docker.com/vulnerabilities/id/CVE-2024-6345?s=github&n=setuptools&t=pypi&vr=%3C70.0.0)
 
@@ -77,6 +75,7 @@ package: pip
 
 > When installing a package from a Mercurial VCS URL, e.g. `pip install hg+...`, with pip prior to v23.3, the specified Mercurial revision could be used to inject arbitrary configuration options to the `hg clone` call (e.g. `--config`). Controlling the Mercurial configuration can modify how and which repository is installed. This vulnerability does not affect users who aren't installing from Mercurial.
 
-package: debian/bintools 
+package : debian/openssh
+[CVE-2010-0928](https://scout.docker.com/vulnerabilities/id/CVE-2010-0928?s=debian&n=openssl&ns=debian&t=deb&osn=debian&osv=10&vr=%3E%3D1.1.1n-0%2Bdeb10u3)
 
-[CVE-2021-3487](https://scout.docker.com/vulnerabilities/id/CVE-2021-3487?s=debian&n=binutils&ns=debian&t=deb&osn=debian&osv=10&vr=%3E%3D2.31.1-16)
+> OpenSSL 0.9.8i on the Gaisler Research LEON3 SoC on the Xilinx Virtex-II Pro FPGA uses a Fixed Width Exponentiation (FWE) algorithm for certain signature calculations, and does not verify the signature before providing it to a caller, which makes it easier for physically proximate attackers to determine the private key via a modified supply voltage for the microprocessor, related to a "fault-based attack."
